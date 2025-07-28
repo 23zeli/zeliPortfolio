@@ -22,7 +22,9 @@ function ContactMe () {
     <div className="contact-me" id="contact-me" style={{ backgroundColor: "512DA8", padding: "50px", }}>
       <h1 
         className='contactHeader'
-        style={{ textAlign: "left"}}
+        // style={{ textAlign: "left"}}
+        style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
+
         id="contactme-section"
       >
         Contact me
