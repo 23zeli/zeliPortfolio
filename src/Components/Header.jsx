@@ -62,7 +62,7 @@ function Header() {
   };
   return (
     <div
-      position= "fixed" 
+      position= "fixed"
       top={0}
       left={0}
       right={0}
@@ -71,7 +71,7 @@ function Header() {
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
-      ref={headerRef} 
+      ref={headerRef}
       className='Header'
     >
       <nav className='Icons'>
