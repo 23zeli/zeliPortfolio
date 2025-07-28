@@ -32,8 +32,23 @@ a {
   background-color: #18181b;
   color: white;
   padding-bottom: 20px;
-
+  /* new */
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
+
+#projects-section {
+  color: white;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
 
 h1, h4 {
   text-align: center;
@@ -100,6 +115,14 @@ h1, h4 {
   justify-content: center; */
   /* width: 400px; */
 }
+
+#contactMe-section {
+  color: white;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
 
 form {
   margin-top: 10px;
@@ -206,3 +229,75 @@ button {
 /* button:hover {
   border-color: #646cff;
 } */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Header {
+    padding-top: 50px;
+  }
+  #contactMe-section,  {
+    margin-left: 80px;
+  }
+
+  #projects-section {
+    margin-left: 60px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Header {
+    padding-top: 30px;
+  }
+  .Icons {
+    margin-right: 20px;
+  }
+
+  #projects-section {
+    margin-left: 60px;
+  }
+
+  #contactMe-section {
+    margin-left: 80px;
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .Header {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .Icons {
+    margin-bottom: 10px;
+  }
+  #projects-section {
+    margin-left: 60px;
+  }
+  #contactMe-section {
+    margin-left: 80px;
+  }
+}
+
+/* Extra small devices (phones, 575px and down) */
+@media (max-width: 575px) {
+  .Header {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  .Icons {
+    margin-bottom: 10px;
+  }
+  .Menu {
+    flex-direction: column;
+  }
+  .Menu a {
+    margin-bottom: 10px;
+  }
+   #projects-section {
+    margin-left: 60px;
+  }
+  #contactMe-section {
+    margin-left: 80px;
+  }
+}

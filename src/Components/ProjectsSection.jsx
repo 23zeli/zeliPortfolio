@@ -27,7 +27,7 @@ function ProjectSection() {
         <div className="projects-Section" style={{backgroundColor: "#14532d", paddingTop: "50px"}}>
           <a href='#'>
             <h1 
-              style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
+              // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
               id="projects-section"
             >
                 Featured Projects

@@ -19,13 +19,13 @@ function ContactMe () {
   }
 
   return (
-    <div className="contact-me" id="contact-me" style={{ backgroundColor: "512DA8", padding: "50px 0px ", }}>
+    <div className="contact-me" id="contact-me" style={{ backgroundColor: "512DA8", padding: "50px 20px ", }}>
       <h1 
         className='contactHeader'
         // style={{ textAlign: "left"}}
-        style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
+        // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
 
-        id="contactme-section"
+        id="contactMe-section"
       >
         Contact me
       </h1>
