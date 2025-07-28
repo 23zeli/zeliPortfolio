@@ -94,6 +94,7 @@ h1, h4 {
 #contact-me {
   background-color: rgba(81, 45, 168);
   color: rgb(217, 212, 228);
+  padding: 20px;  /*new
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
@@ -113,6 +114,7 @@ fieldset {
   align-items: center;
   border: none;
   text-align: left;
+  padding: 0;
 
 }
 .contactHeader {
@@ -124,11 +126,14 @@ label {
   padding-bottom: 3px;
   padding-top: 15px;
   display: block;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 input {
   background-color: rgba(81, 45, 168);
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  /* width: 600px; */
   border-radius: 5px;
   padding: 5px;
   border: 1px solid rgb(102, 76, 161);
@@ -137,14 +142,16 @@ input {
 
 button  {
   background-color: rgb(102, 76, 161);
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   margin-top: 5px;
   color: white;
 }
 
 textarea {
   background-color: rgba(81, 45, 168);
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 200px;
   border-radius: 8px;
   border: 1px solid rgb(102, 76, 161);
