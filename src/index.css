@@ -120,7 +120,12 @@ fieldset {
 .contactHeader {
 
   margin-left: 450px;
- }
+}
+
+#labels {
+  width: 100%;
+  max-width: 600px;
+}
 
 label {
   padding-bottom: 3px;

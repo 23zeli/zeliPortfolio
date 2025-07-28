@@ -29,7 +29,7 @@ function ContactMe () {
       </h1>
       <form onSubmit={handleSubmit}>
         <fieldset>
-          <div>
+          <div id="labels">
             <label>Name</label>
             <input 
               type="text"  
@@ -38,7 +38,7 @@ function ContactMe () {
               onChange = {(e)=> setName(e.target.value)}
             /> 
           </div>
-          <div>
+          <div id="labels">
             <label>Email Address</label>
             <input 
               type="text" 
@@ -51,7 +51,7 @@ function ContactMe () {
             <label>Type of enquiry:</label>
             <input type="text" id="enquiry"/>
           </div> */}
-          <div>
+          <div id="labels">
             <label>Your message</label>
             <textarea 
               type="text" 
