@@ -43,9 +43,8 @@ function ProjectSection() {
                     />
                 ))}
             </div>
-          </a>  
+          </a>
         </div>
-
     )
 };
 
