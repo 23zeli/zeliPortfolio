@@ -320,7 +320,7 @@ function Header() {
         <a href="#projects" onClick={handleClick("projects")}>
           Projects
         </a>
-        <a href="#contactme" onClick={handleClick("contactme")}>
+        <a href="#contact-me" onClick={handleClick("contact-me")}>
           Contact Me
         </a>
       </nav>
@@ -333,10 +333,10 @@ function Header() {
         <nav className={`nav ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>
-              <a href="#">Projects</a>
+              <a href="#projects" onClick={handleClick("projects")} >Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact-me" onClick={handleClick("contact-me")} >Contact</a>
             </li>
           </ul>
         </nav>
