@@ -84,8 +84,8 @@ function Footer() {
     <div className="Footer" style={{ backgroundColor: "#18181b", display: "flex", flexDirection: "column", alignItems: "center", }}>
         <p
             style={{
-              paddingTop: "25px",
-              paddingBottom: "25px",
+              paddingTop: "5px",
+              paddingBottom: "5px",
               color: "whitesmoke",
             }}
         >

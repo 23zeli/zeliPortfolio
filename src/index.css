@@ -169,6 +169,8 @@ textarea {
   outline: none;
 }
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -186,6 +188,10 @@ body {
   transition: border-color 0.25s;
 }
 
+.footerIcons {
+  padding-bottom: 10px;
+}
+
 /* button:hover {
   border-color: #646cff;
 } */
@@ -200,7 +206,6 @@ body {
   .Header {
     padding-top: 50px;
   }
-  
   #contactMe-section  {
     margin-left: 80px;
   }
@@ -331,7 +336,6 @@ body {
   top: 0;
   right: 0;
   display: block;
-  /* width: 200px; */
   width: 80%;
   height: 100vh;
   background-color: whitesmoke;
