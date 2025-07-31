@@ -361,3 +361,25 @@ body {
   color: #666;
 }
 
+.Icons a {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Icons a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* .Icons a:hover {
+  transform: scale(1.2);
+} */
+
+.Menu a:hover {
+  color: #ccc;
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-contact:hover {
+  background-color: rgb(80, 60, 140);
+  transition: background-color 0.3s ease-in-out;
+}
