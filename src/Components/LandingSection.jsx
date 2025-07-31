@@ -6,33 +6,33 @@ import React from "react";
 //     <div className="FullScreenSection"
 //         // justifyContent="centre" alignItems="centre" isDarkBackGround backgroundColor="#18181b"
 //     >
-//         <div className="LandingSection" 
+//         <div className="LandingSection"
 //             // spacing={16}
 //         >
-//             <div 
+//             <div
 //                 className="Avatar"
-//                 // spacing={4} 
+//                 // spacing={4}
 //                 // alignItems="centre"
 //             >
-//                 <img 
-//                     src="" 
-//                     // size="2xl" 
+//                 <img
+//                     src=""
+//                     // size="2xl"
 //                     name=""
 //                 />
-//                 <h4 
-//                     // size="md" 
+//                 <h4
+//                     // size="md"
 //                     // noOfLine={1}
 //                 >
 //                     Hello, I am Mtutuzeli!
 //                 </h4>
 //             </div>
 //             <div className="Text">
-//                 <h1 
+//                 <h1
 //                     // size="3xl" noOfLine={1}
 //                 >
 //                     A frontend Developer
 //                 </h1>
-//                 <h1 
+//                 <h1
 //                     // size="3xl" noOfLine={1}
 //                 >
 //                     specialised in React
@@ -42,11 +42,11 @@ import React from "react";
 //     </div>
 
 //     return(
-//         <div 
-//             // backgroundColor="" 
+//         <div
+//             // backgroundColor=""
 //             // color={isDarkBackGround ? "white" : "black"}
 //         >
-//             <div 
+//             <div
 //                 // maxWidth="1280px" minHeight="100vh" {...boxProps}
 //             >
 //                 {/* {children} */}
@@ -68,7 +68,6 @@ function LandingSection() {
         alignContent: "centre",
         paddingTop: "50px",
         paddingBottom: "50px",
-
     };
 
     return(
@@ -80,7 +79,6 @@ function LandingSection() {
             <h1>A frontend developer</h1>
             <h1>specialised in React</h1>
         </div>
-        
     )
 }
 export default LandingSection;

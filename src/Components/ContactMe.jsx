@@ -61,7 +61,7 @@ function ContactMe () {
               onChange = {(e)=> setMessage(e.target.value)}  
             />
           </div>
-          <button className='button'>Submit</button>
+          <button className='btn-contact'>Submit</button>
         </fieldset>
       </form>
     </div>
