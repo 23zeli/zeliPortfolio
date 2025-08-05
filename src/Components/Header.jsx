@@ -321,9 +321,7 @@ function Header() {
         <a href="#projects" onClick={handleClick("projects")}>
           Projects
         </a>
-        <a href="#contact-me" onClick={handleClick("contact-me")}>
-          Contact Me
-        </a>
+        <a href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
       </nav>
       <div className='BurgerMenu'>
         <button className="hamburger" onClick={handleToggle}>
@@ -337,7 +335,7 @@ function Header() {
               <a href="#projects" onClick={handleClick("projects")} >Projects</a>
             </li>
             <li>
-              <a href="#contact-me" onClick={handleClick("contact-me")} >Contact</a>
+              <a href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
             </li>
           </ul>
         </nav>
