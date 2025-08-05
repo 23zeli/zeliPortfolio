@@ -299,6 +299,7 @@ function Header() {
         behavior: "smooth",
         block: "start",
       });
+    setIsOpen(false); //Close burger menu after clicking on a link
     }
   };
 
