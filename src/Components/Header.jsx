@@ -262,9 +262,9 @@ function Header() {
       {
         url: 'https://linkedin.com/in/mtutuzeli-ngobo-uni1104', icon: faLinkedin,
       },
-      {
-        url: 'mtutuzeli.ngobo@gmail.com', icon: faEnvelope ,
-      },
+      // {
+      //   url: 'mtutuzeli.ngobo@gmail.com', icon: faEnvelope ,
+      // },
   ];
 
   const headerRef = useRef(null);
@@ -324,7 +324,12 @@ function Header() {
         <a href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
       </nav>
       <div className='BurgerMenu'>
-        <button className="hamburger" onClick={handleToggle}>
+        <button
+          className="hamburger"
+          onClick={handleToggle}
+          aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
+        >
           <span className={isOpen ? 'open' : ''}></span>
           <span className={isOpen ? 'open' : ''}></span>
           <span className={isOpen ? 'open' : ''}></span>
