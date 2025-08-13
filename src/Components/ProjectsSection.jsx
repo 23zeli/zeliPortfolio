@@ -6,6 +6,7 @@ const projects = [
       description: "React-based web app simulates a restaurant table reservation system.",
       title: "Reserve a Table web app",
       getImageSrc: "./images/reserveTable.jpg",
+      url: "https://23zeli.github.io/table-booking/",
     },
   
     {
@@ -13,12 +14,12 @@ const projects = [
       description: "React-based application that allows users to search for movies using a public API.",
       getImageSrc: "./images/movie.jpg",
     },
-  
-    {
-      title: "Calculator",
-      description: "basic calculator that can add, subtract, multiply and divide",
-      // getImageSrc: "./images/.jpg",
-    },
+
+    // {
+    //   title: "Calculator",
+    //   description: "basic calculator that can add, subtract, multiply and divide",
+    //   // getImageSrc: "./images/.jpg",
+    // },
   ]
 
 function ProjectSection() {
@@ -26,7 +27,7 @@ function ProjectSection() {
     return(
         <div className="projects-Section" style={{backgroundColor: "#14532d", paddingTop: "50px"}}>
           <a href='#'>
-            <h1 
+            <h1
               // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
               id="projects-section"
             >
