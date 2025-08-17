@@ -262,9 +262,9 @@ function Header() {
       {
         url: 'https://linkedin.com/in/mtutuzeli-ngobo-uni1104', icon: faLinkedin,
       },
-      // {
-      //   url: 'mtutuzeli.ngobo@gmail.com', icon: faEnvelope ,
-      // },
+      {
+        url: 'mailto:mtutuzeli.ngobo@gmail.com', icon: faEnvelope ,
+      },
   ];
 
   const headerRef = useRef(null);
