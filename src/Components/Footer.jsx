@@ -8,7 +8,7 @@ function Footer() {
     { url: 'https://x.com/23zeli', icon: faTwitter },
     { url: 'https://github.com/23zeli', icon: faGithub },
     { url: 'https://linkedin.com/in/mtutuzeli-ngobo-uni1104', icon: faLinkedin },
-    // { url: 'mtutuzeli.ngobo@gmail.com', icon: faEnvelope },
+    { url: 'mailto:mtutuzeli.ngobo@gmail.com', icon: faEnvelope },
   ];
 
   return (
