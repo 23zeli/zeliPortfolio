@@ -6,14 +6,14 @@ const projects = [
       description: "React-based web app simulates a restaurant table reservation system.",
       title: "Reserve a Table web app",
       getImageSrc: "./images/reserveTable.jpg",
-      // url: "https://23zeli.github.io/table-booking/",
+      url: "https://23zeli.github.io/table-booking/",
     },
   
     {
       title: "Movies search app",
       description: "React-based application that allows users to search for movies using a public API.",
       getImageSrc: "./images/movie.jpg",
-      // url: "https://23zeli.github.io/movies-repo//",
+      url: "https://23zeli.github.io/explore-movies/",
 
     },
 
@@ -28,25 +28,25 @@ function ProjectSection() {
 
     return(
         <div className="projects-Section" style={{backgroundColor: "#14532d", paddingTop: "50px"}}>
-          <a href='#'>
-            <h1
-              // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
-              id="projects-section"
-            >
-                Featured Projects
-            </h1>
-            <div className='list'>
-                {projects.map((project) => (
-                    <Cards
-                        key={project.title}
-                        title={project.title}
-                        description={project.description}
-                        url={project.url}
-                        getImageSrc={project.getImageSrc}
-                    />
-                ))}
-            </div>
-          </a>
+          <h1
+            // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
+            id="projects-section"
+          >
+              Featured Projects
+          </h1>
+          <div className='list'>
+              {projects.map((project) => (
+                <a href={project.url} target='blank'>
+                  <Cards
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      url={project.url}
+                      getImageSrc={project.getImageSrc}
+                  />
+                </a>
+              ))}
+          </div>
         </div>
     )
 };
