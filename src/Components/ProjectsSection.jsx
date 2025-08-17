@@ -6,13 +6,15 @@ const projects = [
       description: "React-based web app simulates a restaurant table reservation system.",
       title: "Reserve a Table web app",
       getImageSrc: "./images/reserveTable.jpg",
-      url: "https://23zeli.github.io/table-booking/",
+      // url: "https://23zeli.github.io/table-booking/",
     },
   
     {
       title: "Movies search app",
       description: "React-based application that allows users to search for movies using a public API.",
       getImageSrc: "./images/movie.jpg",
+      // url: "https://23zeli.github.io/movies-repo//",
+
     },
 
     // {
@@ -39,7 +41,7 @@ function ProjectSection() {
                         key={project.title}
                         title={project.title}
                         description={project.description}
-                        url=""
+                        url={project.url}
                         getImageSrc={project.getImageSrc}
                     />
                 ))}
