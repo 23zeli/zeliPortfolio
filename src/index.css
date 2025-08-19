@@ -248,6 +248,10 @@ h1, h4 {
 
 }
 
+.source-icon {
+  color: #18181b;
+}
+
 /*Contact Me Section*/
 
 #contact-me {
@@ -436,7 +440,7 @@ body {
   .Icons, .Menu {
     display: none;
   }
-  
+
   .Cards {
     flex-direction: column;
     max-width: 550px;
