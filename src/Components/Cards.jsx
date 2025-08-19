@@ -14,7 +14,7 @@ function Cards(props) {
         <h2 className="card-header" >{props.title}</h2>
         <p className="card-text" >{props.description}</p>
         <div className="skills-icons"></div>
-        <div className="links-btns" style={{display: 'flex'}}>
+        {/* <div className="links-btns" style={{display: 'flex'}}>
           <a className="live-icon" type='button'href='#' target='blank'>
             <img
               src=''
@@ -25,7 +25,7 @@ function Cards(props) {
             <span style={{ color: 'black' }}>Live</span>
           </a>
           <a className="source-icon">Source</a>
-        </div>
+        </div> */}
       </div>
     </div>
   )
