@@ -34,9 +34,9 @@ function ProjectSection() {
           >
               Featured Projects
           </h1>
+          {/* <a href={project.url} target='blank'></a> */}
           <div className='list'>
               {projects.map((project) => (
-                <a href={project.url} target='blank'>
                   <Cards
                       key={project.title}
                       title={project.title}
@@ -44,7 +44,6 @@ function ProjectSection() {
                       url={project.url}
                       getImageSrc={project.getImageSrc}
                   />
-                </a>
               ))}
           </div>
         </div>
