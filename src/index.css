@@ -435,6 +435,10 @@ body {
   .Icons, .Menu {
     display: none;
   }
+
+  .list {
+    padding: 5px;
+  }
   .Cards {
     flex-direction: column;
     max-width: 550px;
