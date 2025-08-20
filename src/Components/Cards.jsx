@@ -13,8 +13,8 @@ function Cards(props) {
       <div className="card-text-container">
         <h2 className="card-header" >{props.title}</h2>
         <p className="card-text" >{props.description}</p>
-        <div className="skills-icons"></div>
-        {/* <div className="links-btns" style={{display: 'flex'}}>
+        {/*<div className="skills-icons"></div>
+         <div className="links-btns" style={{display: 'flex'}}>
           <a className="live-icon" type='button'href='#' target='blank'>
             <img
               src=''
