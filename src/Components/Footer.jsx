@@ -31,6 +31,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "whitesmoke", margin: "10px" }}
+                className='footer-anchor'
               >
                 <FontAwesomeIcon icon={icon} />
               </a>

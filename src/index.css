@@ -8,6 +8,8 @@
 
 a {
   text-decoration: inherit;
+}
+.footer-anchor, .header-icons, .menu-anchor {
   margin-right: 20px;
   color: white;
 }
@@ -252,6 +254,11 @@ h1, h4 {
   color: rgb(43, 43, 43);
   padding: 0.14rem;
   border-radius: 0.2rem;
+  margin-right: 10px;
+}
+
+.links-btns a {
+  margin-right: 10px;
 }
 
 .external-link {
@@ -467,6 +474,6 @@ body {
   .card-text-container {
     width: 100%;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 }

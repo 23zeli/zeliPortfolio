@@ -312,16 +312,17 @@ function Header() {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
+            className='header-icons'
           >
             <FontAwesomeIcon icon={icon} />
           </a>
         ))}
       </nav>
       <nav className='Menu'>
-        <a href="#projects" onClick={handleClick("projects")}>
+        <a className='menu-anchor' href="#projects" onClick={handleClick("projects")}>
           Projects
         </a>
-        <a href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
+        <a className='menu-anchor' href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
       </nav>
       <div className='BurgerMenu'>
         <button

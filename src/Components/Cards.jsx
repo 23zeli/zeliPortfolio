@@ -19,11 +19,11 @@ function Cards(props) {
         <p className="card-text" >{props.description}</p>
         <div className="skills-icons"></div>
          <div className="links-btns" style={{display: 'flex'}}>
-          <a className="live-icon" type='button'href='#' target='blank'>
+          <a className="live-icon" type='button' href='#' target='blank' style={{marginRight: '10px'}}>
             <FontAwesomeIcon icon={faExternalLinkAlt} size='xs' className='external-link'/>
             <span>Live</span>
           </a>
-          <a href='https://github.com/23zeli' className="source-icon">
+          <a href='https://github.com/23zeli' target='blank' className="source-icon" type='button'>
             <FontAwesomeIcon icon={faGithub}/>
             <span>Source</span>
           </a>
