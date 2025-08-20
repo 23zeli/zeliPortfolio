@@ -257,6 +257,13 @@ h1, h4 {
   margin-right: 10px;
 }
 
+.source-icon:hover, .live-icon:hover {
+  /* background-color: #afafaf; */
+  background-color: #afafaf;
+  border: #afafaf;
+  transition: all color 0.3s ease-in-out;
+}
+
 .links-btns a {
   margin-right: 10px;
 }
