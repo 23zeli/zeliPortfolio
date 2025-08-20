@@ -234,22 +234,28 @@ h1, h4 {
 }
 
 .skills-icons {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 25px;
   margin-bottom: 5px;
 }
 
-.live-icon {
-  border: 1px solid blue;
-}
-
-.links-btns {
+/* .links-btns {
   border: 1px solid black;
+} */
 
+.source-icon, .live-icon {
+  font-size: 16px;
+  border: 1px solid rgb(43, 43, 43);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: rgb(43, 43, 43);
+  padding: 0.14rem;
+  border-radius: 0.2rem;
 }
 
-.source-icon {
-  color: #18181b;
+.external-link {
+  padding-right: 5px;
 }
 
 /*Contact Me Section*/
