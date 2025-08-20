@@ -259,7 +259,6 @@ h1, h4 {
 
 .source-icon:hover, .live-icon:hover {
   background-color: rgb(236, 236, 236);
-  border: rgb(236, 236, 236);
   transition: all color 0.3s ease-in-out;
 }
 
