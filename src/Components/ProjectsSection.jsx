@@ -6,15 +6,16 @@ const projects = [
       description: "React-based web app simulates a restaurant table reservation system.",
       title: "Reserve a Table web app",
       getImageSrc: "./images/reserveTable.jpg",
-      url: "https://23zeli.github.io/table-booking/",
+      liveUrl: "https://23zeli.github.io/table-booking/",
+      sourceUrl: 'https://github.com/23zeli/table-booking',
     },
   
     {
       title: "Movies search app",
       description: "React-based application that allows users to search for movies using a public API.",
       getImageSrc: "./images/movie.jpg",
-      url: "https://23zeli.github.io/explore-movies/",
-
+      liveUrl: "https://23zeli.github.io/explore-movies/",
+      sourceUrl: 'https://github.com/23zeli/explore-movies',
     },
 
     // {
@@ -38,11 +39,12 @@ function ProjectSection() {
           <div className='list'>
               {projects.map((project) => (
                   <Cards
-                      key={project.title}
-                      title={project.title}
-                      description={project.description}
-                      url={project.url}
-                      getImageSrc={project.getImageSrc}
+                    key={project.title}
+                    title={project.title}
+                    description={project.description}
+                    liveUrl={project.liveUrl}
+                    sourceUrl={project.sourceUrl}
+                    getImageSrc={project.getImageSrc}
                   />
               ))}
           </div>

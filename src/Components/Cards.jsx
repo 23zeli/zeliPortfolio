@@ -24,11 +24,11 @@ function Cards(props) {
           <span>CSS3</span>
         </div>
         <div className="links-btns" style={{display: 'flex'}}>
-          <a className="live-icon" type='button' href='#' target='blank' style={{marginRight: '10px'}}>
+          <a className="live-icon" type='button' href={props.liveUrl} target='blank' style={{marginRight: '10px'}}>
             <FontAwesomeIcon icon={faExternalLinkAlt} size='xs' className='external-link'/>
             <span>Live</span>
           </a>
-          <a href='https://github.com/23zeli' target='blank' className="source-icon" type='button'>
+          <a href={props.sourceUrl} target='blank' className="source-icon" type='button'>
             <FontAwesomeIcon icon={faGithub}/>
             <span>Source</span>
           </a>
