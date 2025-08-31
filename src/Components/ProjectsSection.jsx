@@ -6,8 +6,8 @@ const projects = [
       description: "React-based web app simulates a restaurant table reservation system.",
       title: "Reserve a Table web app",
       getImageSrc: "./images/reserveTable.jpg",
-      liveUrl: "https://23zeli.github.io/table-booking/",
-      sourceUrl: 'https://github.com/23zeli/table-booking',
+      liveUrl: "https://23zeli.github.io/booking-system/",
+      sourceUrl: 'https://github.com/23zeli/booking-system',
     },
   
     {
