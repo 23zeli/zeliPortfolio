@@ -12,6 +12,7 @@ function Cards(props) {
         <img
           src={props.getImageSrc}
           alt={props.title}
+          loading='lazy'
         />
       </div>
       <div className="card-text-container">
