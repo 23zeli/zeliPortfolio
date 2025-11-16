@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImage from '../assets/images/Avatar.jpg';
+import avatarImage from '../assets/images/Avatar.webp';
 
 function LandingSection() {
     const landingStyle = {

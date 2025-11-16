@@ -9,7 +9,7 @@ const projects = [
       liveUrl: "https://23zeli.github.io/booking-system/",
       sourceUrl: 'https://github.com/23zeli/booking-system',
     },
-  
+
     {
       title: "Movies search app",
       description: "React-based application that allows users to search for movies using a public API.",
