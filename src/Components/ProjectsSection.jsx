@@ -21,7 +21,7 @@ const projects = [
     },
 
     {
-      title: "Modern ux-ui",
+      title: "Modern UX-UI",
       description: "Modern UI-UX website.",
       getImageSrc: "./images/modern_ux-ui.jpg",
       liveUrl: "https://zeli-modern-ux-ui.vercel.app/",
