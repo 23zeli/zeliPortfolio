@@ -39,4 +39,4 @@ function Cards({ title, description, liveUrl, sourceUrl, getImageSrc, skills }) 
   )
 }
 
-export default Cards
+export default React.memo(Cards)
