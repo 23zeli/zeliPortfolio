@@ -80,7 +80,7 @@ function Header() {
         ))}
       </nav>
       <nav className='Menu'>
-        <a className='menu-anchor' href="#projects" onClick={handleClick("projects")}>
+        <a className='menu-anchor' href="#projects-section" onClick={handleClick("projects")}>
           Projects
         </a>
         <a className='menu-anchor' href="#contactMe-section" onClick={handleClick("contactMe")}>Contact Me</a>
