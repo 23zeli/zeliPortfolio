@@ -19,7 +19,6 @@ function Cards(props) {
         <p className="card-text" >{props.description}</p>
         <div
           className="skills-icons"
-          style ={{ overflow: 'hidden' }}
         >
           {props.skills.map((skill, index) => (
             <span key={index}>{skill}</span>
