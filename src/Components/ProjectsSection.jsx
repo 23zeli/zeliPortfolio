@@ -42,7 +42,7 @@ function ProjectSection() {
           <div className='list'>
               {projects.map((project) => (
                   <Cards
-                    key={project.titleUrl}
+                    key={project.title}
                     title={project.title}
                     description={project.description}
                     liveUrl={project.liveUrl}
