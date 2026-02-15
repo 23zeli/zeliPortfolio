@@ -19,11 +19,14 @@ function Cards(props) {
         <h2 className="card-header" >{props.title}</h2>
         <p className="card-text" >{props.description}</p>
         <div className="skills-icons">
-          <span>React.js</span>
+          {props.skills.map((skill, index) => (
+            <span key={index}>{skill}</span>
+          ))}
+          {/* <span>React.js</span>
           <span>JavaScript</span>
           <span>HTML5</span>
           <span>CSS3</span>
-          <span>Tailwind</span>
+          <span>Tailwind</span> */}
         </div>
         <div className="links-btns" style={{display: 'flex'}}>
           <a className="live-icon" type='button' href={props.liveUrl} target='blank' style={{marginRight: '10px'}}>

@@ -8,6 +8,7 @@ const projects = [
       getImageSrc: "./images/reserveTable.jpg",
       liveUrl: "https://23zeli.github.io/booking-system/",
       sourceUrl: 'https://github.com/23zeli/booking-system',
+      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5',],
     },
 
     {
@@ -16,6 +17,7 @@ const projects = [
       getImageSrc: "./images/zeli-movies.jpg",
       liveUrl: "https://zeli-movies.vercel.app",
       sourceUrl: 'https://github.com/23zeli/zeli-movies',
+      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5', 'Tailwind', 'Firebase'],
     },
 
     {
@@ -24,6 +26,7 @@ const projects = [
       getImageSrc: "./images/modern_ux-ui.jpg",
       liveUrl: "https://zeli-modern-ux-ui.vercel.app/",
       sourceUrl: 'https://github.com/23zeli/zeli-modern-ux-ui',
+      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5', 'Tailwind'],
     },
 
     // {
@@ -53,6 +56,7 @@ function ProjectSection() {
                     liveUrl={project.liveUrl}
                     sourceUrl={project.sourceUrl}
                     getImageSrc={project.getImageSrc}
+                    skills ={project.skills}
                   />
               ))}
           </div>
