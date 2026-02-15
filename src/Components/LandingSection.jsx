@@ -4,10 +4,10 @@ import avatarImage from '../assets/images/Avatar.webp';
 function LandingSection() {
     const landingStyle = {
         backgroundColor: "#18181b",
-        alignItems: "centre",
-        justifyContent: "centre",
+        alignItems: "center",
+        justifyContent: "center",
         color: "white",
-        alignContent: "centre",
+        alignContent: "center",
         paddingTop: "50px",
         paddingBottom: "50px",
     };
@@ -19,7 +19,7 @@ function LandingSection() {
                 Hello, I am Mtutuzeli!
             </h4>
             <h1>A frontend developer</h1>
-            <h1>specialised in React</h1>
+            <h1>specialized in React</h1>
         </div>
     )
 }

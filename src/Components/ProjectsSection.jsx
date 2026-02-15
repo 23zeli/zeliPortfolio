@@ -28,12 +28,6 @@ const projects = [
       sourceUrl: 'https://github.com/23zeli/zeli-modern-ux-ui',
       skills: ['React.js', 'Javascript', 'CSS3', 'HTML5', 'Tailwind'],
     },
-
-    // {
-    //   title: "Calculator",
-    //   description: "basic calculator that can add, subtract, multiply and divide",
-    //   // getImageSrc: "./images/.jpg",
-    // },
   ]
 
 function ProjectSection() {
@@ -41,16 +35,14 @@ function ProjectSection() {
     return(
         <div className="projects-Section" style={{backgroundColor: "#14532d", paddingTop: "50px"}}>
           <h1
-            // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
             id="projects-section"
           >
               Featured Projects
           </h1>
-          {/* <a href={project.url} target='blank'></a> */}
           <div className='list'>
               {projects.map((project) => (
                   <Cards
-                    key={project.title}
+                    key={project.titleUrl}
                     title={project.title}
                     description={project.description}
                     liveUrl={project.liveUrl}

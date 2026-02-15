@@ -44,35 +44,31 @@ function ContactMe () {
       <form onSubmit={handleSubmit}>
         <fieldset>
           <div id="labels">
-            <label>Name</label>
-            <input 
-              type="text"  
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
               id="firstName"
               value = {name}
               onChange = {(e)=> setName(e.target.value)}
-            /> 
+            />
             {errors.name && <div style={{ color: 'red'}} >{errors.name}</div>}
           </div>
           <div id="labels">
-            <label>Email Address</label>
-            <input 
-              type="text" 
+            <label htmlFor="email">Email Address</label>
+            <input
+              type="text"
               id="firstName"
               value = {email}
               onChange = {(e)=> setEmail(e.target.value)}
             />
             {errors.email && <div style={{ color: 'red' }}>{errors.email}</div>}
           </div>
-          {/* <div>
-            <label>Type of enquiry:</label>
-            <input type="text" id="enquiry"/>
-          </div> */}
           <div id="labels">
-            <label>Your message</label>
-            <textarea 
-              type="text" 
+            <label htmlFor="message">Your message</label>
+            <textarea
+              type="text"
               value = {message}
-              onChange = {(e)=> setMessage(e.target.value)}  
+              onChange = {(e)=> setMessage(e.target.value)}
             />
             {errors.message && <div style={{ color: 'red' }}>{errors.message}</div>}
           </div>
