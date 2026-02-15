@@ -37,19 +37,19 @@ function ProjectSection() {
           <h1
             id="projects-section"
           >
-              Featured Projects
+            Featured Projects
           </h1>
           <div className='list'>
               {projects.map((project) => (
-                  <Cards
-                    key={project.title}
-                    title={project.title}
-                    description={project.description}
-                    liveUrl={project.liveUrl}
-                    sourceUrl={project.sourceUrl}
-                    getImageSrc={project.getImageSrc}
-                    skills ={project.skills}
-                  />
+                <Cards
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  liveUrl={project.liveUrl}
+                  sourceUrl={project.sourceUrl}
+                  getImageSrc={project.getImageSrc}
+                  skills ={project.skills}
+                />
               ))}
           </div>
         </div>
