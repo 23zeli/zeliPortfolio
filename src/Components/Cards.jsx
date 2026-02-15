@@ -4,32 +4,32 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 
-function Cards(props) {
+function Cards({ title, description, liveUrl, sourceUrl, getImageSrc, skills }) {
   return (
     <div className='Cards' style={{color: "black"}}>
       <div className="card-image">
         <img
-          src={props.getImageSrc}
-          alt={props.title}
+          src={getImageSrc}
+          alt={title}
           loading='lazy'
         />
       </div>
       <div className="card-text-container">
-        <h2 className="card-header" >{props.title}</h2>
-        <p className="card-text" >{props.description}</p>
+        <h2 className="card-header" >{title}</h2>
+        <p className="card-text" >{description}</p>
         <div
           className="skills-icons"
         >
-          {props.skills.map((skill, index) => (
+          {skills.map((skill, index) => (
             <span key={index}>{skill}</span>
           ))}
         </div>
         <div className="links-btns" style={{display: 'flex'}}>
-          <a className="live-icon" type='button' href={props.liveUrl} target='_blank' style={{marginRight: '10px'}}>
+          <a className="live-icon" type='button' href={liveUrl} target='_blank' style={{marginRight: '10px'}}>
             <FontAwesomeIcon icon={faExternalLinkAlt} size='xs' className='external-link'/>
             <span>Live</span>
           </a>
-          <a href={props.sourceUrl} target='_blank' rel="noopener noreferrer" className="source-icon" type='button'>
+          <a href={sourceUrl} target='_blank' rel="noopener noreferrer" className="source-icon" type='button'>
             <FontAwesomeIcon icon={faGithub}/>
             <span>Source</span>
           </a>
