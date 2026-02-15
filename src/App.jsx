@@ -1,8 +1,10 @@
+import { Suspense, lazy } from 'react';
 import Header from './Components/Header'
-import LandingSection from './Components/LandingSection'
-import ProjectSection from './Components/ProjectsSection'
-import ContactMe from './Components/ContactMe'
-import Footer from './Components/Footer'
+
+const LandingSection = lazy(() => import("./Components/LandingSection"));
+const ProjectSection = lazy(() => import("./Components/ProjectsSection"));
+const ContactMe = lazy(() => import("./Components/ContactMe"));
+const Footer = lazy(() => import("./Components/Footer"));
 
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
     <div className='App'>
       <Header />
       <LandingSection />
-      <ProjectSection />
-      <ContactMe />
-      <Footer />
+      <Suspense fallback={<div>Loading.....</div>}>
+        <ProjectSection />
+        <ContactMe />
+        <Footer />
+      </Suspense>
     </div>
   )
 }
