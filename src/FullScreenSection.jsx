@@ -53,7 +53,6 @@ h1, h4 {
   /* height: "50vh", */
 }
 .Cards {
-  
   align-items: center;
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px 10px;

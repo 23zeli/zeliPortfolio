@@ -13,9 +13,17 @@ const projects = [
     {
       title: "Movies search app",
       description: "React-based application that allows users to search for movies using a public API.",
-      getImageSrc: "./images/movie.jpg",
-      liveUrl: "https://23zeli.github.io/explore-movies/",
-      sourceUrl: 'https://github.com/23zeli/explore-movies',
+      getImageSrc: "./images/zeli-movies.jpg",
+      liveUrl: "https://zeli-movies.vercel.app",
+      sourceUrl: 'https://github.com/23zeli/zeli-movies',
+    },
+
+    {
+      title: "Modern ux-ui",
+      description: "Modern UI-UX website.",
+      getImageSrc: "./images/modern_ux-ui.jpg",
+      liveUrl: "https://zeli-modern-ux-ui.vercel.app/",
+      sourceUrl: 'https://github.com/23zeli/zeli-modern-ux-ui',
     },
 
     // {

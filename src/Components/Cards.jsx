@@ -1,7 +1,7 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { Github } from 'lucide-react'
 
 
 
@@ -23,6 +23,7 @@ function Cards(props) {
           <span>JavaScript</span>
           <span>HTML5</span>
           <span>CSS3</span>
+          <span>Tailwind</span>
         </div>
         <div className="links-btns" style={{display: 'flex'}}>
           <a className="live-icon" type='button' href={props.liveUrl} target='blank' style={{marginRight: '10px'}}>
