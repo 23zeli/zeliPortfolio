@@ -134,10 +134,6 @@ a {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* .Icons a:hover {
-  transform: scale(1.2);
-} */
-
 .Menu a:hover {
   color: #ccc;
   transition: color 0.3s ease-in-out;
@@ -188,7 +184,6 @@ h1, h4 {
   background-color: #f5f5f5;
   padding: 2px;
   border-radius: 0.313rem;
-  /* border: 1px solid hsl(0, 0%, 80%); */
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
 }
 
@@ -236,14 +231,9 @@ h1, h4 {
 }
 
 .skills-icons {
-  /* border: 1px solid black; */
   height: 25px;
   margin-bottom: 5px;
 }
-
-/* .links-btns {
-  border: 1px solid black;
-} */
 
 .skills-icons {
   display: flex;
@@ -285,7 +275,6 @@ h1, h4 {
 }
 
 /*Contact Me Section*/
-
 #contact-me {
   background-color: rgba(81, 45, 168);
   color: rgb(217, 212, 228);
@@ -371,7 +360,6 @@ body {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  /* background-color: #1a1a1a; */
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -379,15 +367,6 @@ body {
 .footerIcons {
   padding-bottom: 10px;
 }
-
-/* button:hover {
-  border-color: #646cff;
-} */
- /* @media (max-width: 768px) {
-  #footer-icons {
-    display: none;
-  }
- } */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
