@@ -31,12 +31,9 @@ function ContactMe () {
   }
 
   return (
-    <div className="contact-me" id="contact-me" style={{ backgroundColor: "512DA8", padding: "50px 20px ", }}>
+    <div className="contact-me" id="contact-me" style={{ backgroundColor: "#512DA8", padding: "50px 20px ", }}>
       <h1
         className='contactHeader'
-        // style={{ textAlign: "left"}}
-        // style={{color: 'white', textAlign: 'left', marginLeft: '100px', paddingTop: '20px'}}
-
         id="contactMe-section"
       >
         Contact me
@@ -47,7 +44,7 @@ function ContactMe () {
             <label htmlFor="name">Name</label>
             <input
               type="text"
-              id="firstName"
+              id="name"
               value = {name}
               onChange = {(e)=> setName(e.target.value)}
             />
@@ -57,7 +54,7 @@ function ContactMe () {
             <label htmlFor="email">Email Address</label>
             <input
               type="text"
-              id="firstName"
+              id="email"
               value = {email}
               onChange = {(e)=> setEmail(e.target.value)}
             />
