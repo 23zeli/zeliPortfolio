@@ -1,6 +1,9 @@
 import React from 'react';
 import Cards from './Cards';
 
+
+
+
 const projects = [
     {
       description: "React-based web app simulates a restaurant table reservation system.",
@@ -8,7 +11,7 @@ const projects = [
       getImageSrc: "./images/reserveTable.jpg",
       liveUrl: "https://23zeli.github.io/booking-system/",
       sourceUrl: 'https://github.com/23zeli/booking-system',
-      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5',],
+      skills: ['react', 'javascript',],
     },
 
     {
@@ -17,7 +20,7 @@ const projects = [
       getImageSrc: "./images/zeli-movies.jpg",
       liveUrl: "https://zeli-movies.vercel.app",
       sourceUrl: 'https://github.com/23zeli/zeli-movies',
-      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5', 'Tailwind', 'Firebase'],
+      skills: ['react', 'javascript', 'tailwind', 'firebase'],
     },
 
     {
@@ -26,7 +29,7 @@ const projects = [
       getImageSrc: "./images/modern_ux-ui.jpg",
       liveUrl: "https://zeli-modern-ux-ui.vercel.app/",
       sourceUrl: 'https://github.com/23zeli/zeli-modern-ux-ui',
-      skills: ['React.js', 'Javascript', 'CSS3', 'HTML5', 'Tailwind'],
+      skills: ['react', 'javascript', 'tailwind'],
     },
   ]
 
