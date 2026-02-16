@@ -1,9 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { FaReact, } from 'react-icons/fa';
+import { SiJavascript, SiTailwindcss } from 'react-icons/si';
+import { BiLogoFirebase } from 'react-icons/bi';
 import React from 'react'
 
 
+const iconMap = {
+  react: <FaReact color='#61DBFB'/>,
+  javascript: <SiJavascript />,
+  tailwind: <SiTailwindcss color='#38BDF8' />,
+  firebase: <BiLogoFirebase color='#FFCA28'  />,
+}
 
 function Cards({ title, description, liveUrl, sourceUrl, getImageSrc, skills }) {
   return (
@@ -22,7 +31,7 @@ function Cards({ title, description, liveUrl, sourceUrl, getImageSrc, skills }) 
           className="skills-icons"
         >
           {skills.map((skill, index) => (
-            <span key={index}>{skill}</span>
+            <span className='tech-icons' key={index}>{iconMap[skill]}</span>
           ))}
         </div>
         <div className="links-btns" style={{display: 'flex'}}>
